@@ -1,5 +1,4 @@
 #!/bin/bash
-# A script to upscale small bitmaps in PNG format.
 echo "Nama Customer :"
 read nama
 cd $nama
@@ -20,8 +19,6 @@ rm -rf copy$i.jpeg
 done
 mkdir backup
 mv *.jpeg backup/
-# echo "next merge horizontal?"
-# read yes
 c=1
 d=2
 e=3
